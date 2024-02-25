@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --font-family-condensed: 'Roboto Condensed', sans-serif;
+  --font-family-oswald: 'Oswald', sans-serif;
+  --font-family-mont: 'Montserrat', sans-serif;
+  --font-family-lora: 'Lora', serif;
+
+  --c-cusBlue: #0092cd;
+  --c-white: #fff;
+
+  line-height: 2rem;
+  font-family: var(--font-family-condensed);
+  font-size: 17px;
+}
+
+::selection {
+  background-color: var(--c-cusBlue);
+  color: var(--c-white);
+  -webkit-background-color: var(--c-cusBlue);
+  -webkit-color: var(--c-white);
+}
+
+.for {
+  font-family: var(--font-family-lora);
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+h1 {
+  @apply text-4xl lg:text-5xl font-light;
+}
+
+.contactTitle {
+  font-family: var(--font-family-oswald);
+  @apply text-4xl lg:text-5xl font-light;
+}
+
+h2 {
+  font-family: var(--font-family-oswald);
+  @apply text-lg lg:text-2xl font-light;
+}
+
+li {
+  @apply font-light;
+}
+
+h3 {
+  @apply text-3xl xl:text-4xl font-light;
+  font-family: var(--font-family-oswald);
+}
+
+h4 {
+  @apply text-xl;
+  font-family: var(--font-family-mont);
+}
+
+span {
+  font-family: var(--font-family-mont);
+  font-size: 18px;
+}
+
+p{
+  @apply text-xl font-light
+}
