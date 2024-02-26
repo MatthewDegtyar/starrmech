@@ -1,99 +1,189 @@
-<script>
+<script lang="ts">
   import "../app.css";
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
+  import { page } from "$app/stores";
+
+  let isMobileMenuOpen = false;
+  export let currentPage: string;
+  console.log("currentPage:", currentPage);
 
   export let currentYear = "";
+  let hideRequestQuote = false; // Add this variable
 
   onMount(() => {
     // Get the current year
     currentYear = new Date().getFullYear().toString();
+    updateLayout(); // Update layout on mount
   });
+  onDestroy(() => {
+    // Unsubscribe from changes in the $page store when component is destroyed
+    unsubscribe();
+  });
+  const unsubscribe = page.subscribe(() => {
+    updateLayout();
+  });
+  function updateLayout() {
+    currentPage = $page.url.pathname;
+    hideRequestQuote = currentPage === "/contact";
+  }
+
+  function toggleMobileMenu() {
+    isMobileMenuOpen = !isMobileMenuOpen;
+  }
+  function closeMobileMenu() {
+    isMobileMenuOpen = false;
+  }
 </script>
 
 <!--navbar-->
-<nav class="h-[80px] z-40 fixed bg-white top-0 w-screen flex flex-row items-center px-[5vw]">
-  <a href="https://www.starrmechanical.net/">
-    <img alt="Starr Mechanical logo" src="/img/starrlogo.png" />
+<nav
+  class="h-[80px] z-40 fixed bg-white top-0 w-screen flex flex-row items-center px-[5vw]"
+>
+  <a href="/">
+    <img alt="Starr Mechanical logo" src="/img/starrlogo.webp" />
   </a>
 
   <div class="ml-8 font-medium hidden lg:flex flex-row gap-8 mt-[20px]">
-    <a class="hover:text-[#0075A3]" href="/">Home</a>
-    <a class="hover:text-[#0075A3]" href="/about">About US</a>
-    <a class="hover:text-[#0075A3]" href="/clients">Clients</a>
-    <a class="hover:text-[#0075A3]" href="/careers">Careers</a>
-    <a class="hover:text-[#0075A3]" href="/projects">Projects</a>
-    <a class="hover:text-[#0075A3]" href="/services">Services</a>
-    <a class="hover:text-[#0075A3]" href="/contact">Contact Us</a>
+    <a class:selected={currentPage === "/"} href="/">Home</a>
+    <a class:selected={currentPage === "/about"} href="/about">About Us</a>
+    <a class:selected={currentPage === "/clients"} href="/clients">Clients</a>
+    <a class:selected={currentPage === "/careers"} href="/careers">Careers</a>
+    <a class:selected={currentPage === "/projects"} href="/projects">Projects</a
+    >
+    <a class:selected={currentPage === "/services"} href="/services">Services</a
+    >
+    <a class:selected={currentPage === "/contact"} href="/contact">Contact Us</a
+    >
   </div>
 
-  <div class="lg:hidden absolute right-4 top-[30px] self-end">
-    <button class="size-6 bg-black">
-
+  <div class="lg:hidden absolute right-4 sm:right-8 top-[30px] self-end">
+    <button
+      aria-labelledby="menu open"
+      on:click={toggleMobileMenu}
+      class="size-8"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        class="size-8"
+        viewBox="0 0 24 24"
+        style="fill:#1A1A1A;"
+      >
+        <path
+          d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"
+        ></path>
+      </svg>
     </button>
-
-
   </div>
 
-  <div class="fixed hidden z-30 left-0 top-0 h-screen w-screen bg-white">
-    <button class="size-6 bg-black top-16 right-16 absolute">
-
-    </button>
-    <div class="flex flex-col items-center h-screen w-screen justify-center gap-8 text-3xl">
-      <a href="/">Home</a>
-      <a href="/clients">Clients</a>
-      <a href="/careers">Careers</a>
-      <a href="/projects">Projects</a>
-      <a href="/services">Services</a>
-      <a href="/contact">Contact Us</a>
+  <!-- Mobile Menu -->
+  {#if isMobileMenuOpen}
+    <div class="fixed lg:hidden z-50 left-0 top-0 h-screen w-screen bg-white">
+      <button
+        aria-labelledby="menu close"
+        class="size-8 top-[30px] right-4 sm:right-8 absolute"
+        on:click={toggleMobileMenu}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          class="size-8"
+          viewBox="0 0 50 50"
+        >
+          <path
+            d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"
+          ></path>
+        </svg>
+      </button>
+      <div
+        class="flex flex-col items-center h-screen w-screen justify-center gap-8 text-3xl"
+      >
+        <a
+          href="/"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/"}>Home</a
+        >
+        <a
+          href="/about"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/about"}>About Us</a
+        >
+        <a
+          href="/clients"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/clients"}>Clients</a
+        >
+        <a
+          href="/careers"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/careers"}>Careers</a
+        >
+        <a
+          href="/projects"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/projects"}>Projects</a
+        >
+        <a
+          href="/services"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/services"}>Services</a
+        >
+        <a
+          href="/contact"
+          on:click={closeMobileMenu}
+          class:selected={window.location.pathname === "/contact"}>Contact Us</a
+        >
+      </div>
     </div>
-  </div>
-
+  {/if}
 </nav>
 
 <div class="h-[80px]"></div>
 
 <slot />
 
+{#if !hideRequestQuote}
+  <!--get a quote-->
+  <div class=" mb-24 flex flex-col text-center items-center">
+    <div class="h-[1.25px] w-[45%] mt-16 bg-[#e2e2e2]"></div>
 
-<!--get a quote-->
-<div class=" mb-24 flex flex-col text-center items-center">
-  <div class="h-[1.25px] w-[45%] mt-16 bg-[#e2e2e2]"></div>
-
-  <h3 class="text-[#0092cd] mt-8 text-4xl">Request A Quote</h3>
-  <p class="mt-4 max-w-[70%]">
-    Contact us for your next project. We look forward to hearing from you!
-  </p>
-  <div>
-    <a
-      href="/contact"
-      class="bg-[#0092cd] items-center flex flex-row hover:bg-[#0075A3] text-white mt-6 p-4 rounded-xl"
-    >
-      <span class="text-nowrap">Get A Quote</span>
-
-      <svg
-        class="h-6 w-6"
-        fill="#fff"
-        clip-rule="evenodd"
-        fill-rule="evenodd"
-        stroke-linejoin="round"
-        stroke-miterlimit="2"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="m10.211 7.155c-.141-.108-.3-.157-.456-.157-.389 0-.755.306-.755.749v8.501c0 .445.367.75.755.75.157 0 .316-.05.457-.159 1.554-1.203 4.199-3.252 5.498-4.258.184-.142.29-.36.29-.592 0-.23-.107-.449-.291-.591-1.299-1.002-3.945-3.044-5.498-4.243z"
-        /></svg
+    <h3 class="text-[#0092cd] mt-8 text-4xl">Request A Quote</h3>
+    <p class="mt-4 max-w-[70%]">
+      Contact us for your next project. We look forward to hearing from you!
+    </p>
+    <div>
+      <a
+        href="/contact"
+        class="bg-[#0092cd] items-center flex flex-row hover:bg-[#0075A3] text-white mt-6 p-4 rounded-xl"
       >
-    </a>
-  </div>
-</div>
+        <span class="text-nowrap">Get A Quote</span>
 
+        <svg
+          class="h-6 w-6"
+          fill="#fff"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          ><path
+            d="m10.211 7.155c-.141-.108-.3-.157-.456-.157-.389 0-.755.306-.755.749v8.501c0 .445.367.75.755.75.157 0 .316-.05.457-.159 1.554-1.203 4.199-3.252 5.498-4.258.184-.142.29-.36.29-.592 0-.23-.107-.449-.291-.591-1.299-1.002-3.945-3.044-5.498-4.243z"
+          /></svg
+        >
+      </a>
+    </div>
+  </div>
+{/if}
 <!--footer-->
 <footer class=" text-white bg-[#444444] flex flex-col items-center">
   <div
     class="flex flex-col lg:flex-row lg:w-[70%] justify-between mt-8 px-[5vw]"
   >
     <div class="flex flex-col lg:w-[30%]">
-      <p class='footerP'>About Starr Mechanical</p>
+      <p class="footerP">About Starr Mechanical</p>
       <p class="mt-4 text-lg">
         Full-service Orlando based Mechanical Contracting Company specializing
         in Commercial and Industrial HVAC Systems & Rooftop Services. Licensed,
@@ -105,24 +195,36 @@
       </p>
     </div>
     <div class="flex flex-col lg:w-[30%] mt-8 lg:mt-0">
-      <p class='footerP'>Company</p>
+      <p class="footerP">Company</p>
       <div class="grid grid-cols-2 mt-4 gap-6">
-        <p><a class="hover:text-[#0092cd] text-lg" href="/about">About Us</a></p>
-        <p><a class="hover:text-[#0092cd] text-lg" href="/clients">Clients</a></p>
-        <p><a class="hover:text-[#0092cd] text-lg" href="/careers">Careers</a></p>
-        <p><a class="hover:text-[#0092cd] text-lg" href="/services">Services</a></p>
-        <p><a class="hover:text-[#0092cd] text-lg" href="/projects">Projects</a></p>
-        <p><a class="hover:text-[#0092cd] text-lg" href="/contact">Contact Us</a></p>
+        <p>
+          <a class="hover:text-[#0092cd] text-lg" href="/about">About Us</a>
+        </p>
+        <p>
+          <a class="hover:text-[#0092cd] text-lg" href="/clients">Clients</a>
+        </p>
+        <p>
+          <a class="hover:text-[#0092cd] text-lg" href="/careers">Careers</a>
+        </p>
+        <p>
+          <a class="hover:text-[#0092cd] text-lg" href="/services">Services</a>
+        </p>
+        <p>
+          <a class="hover:text-[#0092cd] text-lg" href="/projects">Projects</a>
+        </p>
+        <p>
+          <a class="hover:text-[#0092cd] text-lg" href="/contact">Contact Us</a>
+        </p>
       </div>
       <a
-        href='/contact'
+        href="/contact"
         class=" place-self-start text-xl mt-8 hover:bg-[#e0e0e0] text-[#444444] bg-white rounded-xl p-4"
       >
         <span class="text-lg">Request A Quote</span>
       </a>
     </div>
     <div class="flex flex-col lg:w-[30%] mt-8 lg:mt-0">
-      <p class='footerP'>Contact</p>
+      <p class="footerP">Contact</p>
       <div class="flex flex-col gap-4 mt-4">
         <div class="flex flex-row gap-4">
           <div class="w-5 h-5">
@@ -189,7 +291,6 @@
                 fill="white"
               ></path></svg
             >
-
           </div>
 
           <span class="text-[16px]">info(at)StarrMechanical.net</span>

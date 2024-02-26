@@ -13,10 +13,10 @@
     <div class="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-3 items-center w-[90%] lg:w-[70%] gap-8">
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Orlando Shakespeare Theater"
-          src="/img/clients/shak.jpeg"
+          src="/img/clients/shak.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -26,10 +26,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Orange County Convention Center"
-          src="/img/clients/conv.jpeg"
+          src="/img/clients/conv.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -39,10 +39,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="East Orlando Health Rehab Center"
-          src="/img/clients/reha.jpeg"
+          src="/img/clients/reha.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -52,10 +52,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Eastern Florida State Chiller Plant"
-          src="/img/bobcat2.png"
+          src="/img/bobcat2.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -65,10 +65,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Transportation Safety Administration"
-          src="/img/clients/tsa.jpeg"
+          src="/img/clients/tsa.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -78,10 +78,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Fedex"
-          src="/img/clients/fede.jpeg"
+          src="/img/clients/fede.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -91,10 +91,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Bar Harbor Sea Food"
-          src="/img/clients/barh.jpeg"
+          src="/img/clients/barh.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -104,10 +104,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Universal Orlando"
-          src="/img/clients/univ2.jpeg"
+          src="/img/clients/univ2.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -117,10 +117,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Universal Islands of Adventure"
-          src="/img/clients/islands.jpeg"
+          src="/img/clients/islands.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -130,10 +130,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="St. Mary's Academy"
-          src="/img/clients/.jpeg"
+          src="/img/clients/.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -143,10 +143,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Jenco"
-          src="/img/clients/.jpeg"
+          src="/img/clients/.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -156,10 +156,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Toojay's Deli"
-          src="/img/clients/too.jpeg"
+          src="/img/clients/too.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -169,10 +169,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Ritz Carlton Orlando"
-          src="/img/clients/ritz.jpeg"
+          src="/img/clients/ritz.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -182,10 +182,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="JW Marriott Orlando"
-          src="/img/clients/jw.jpeg"
+          src="/img/clients/jw.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -195,7 +195,7 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Hyatt Place Orlando"
           src="/img/clients/hyatt.webp"
@@ -208,10 +208,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="The Vue Orlando"
-          src="/img/clients/vue.jpeg"
+          src="/img/clients/vue.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -221,10 +221,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Amway Center"
-          src="/img/clients/amway.jpeg"
+          src="/img/clients/amway.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -234,10 +234,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Bufallo Wild Wings Citrus Bowl"
-          src="/img/clients/.jpeg"
+          src="/img/clients/.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -247,10 +247,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Oviedo High School"
-          src="/img/clients/ohs.jpeg"
+          src="/img/clients/ohs.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -260,10 +260,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Maitland Middle School"
-          src="/img/clients/mms.jpeg"
+          src="/img/clients/mms.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -273,10 +273,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Lake Mary High School"
-          src="/img/clients/lmhs.png"
+          src="/img/clients/lmhs.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -286,10 +286,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Delotina High School"
-          src="/img/clients/dhs.jpeg"
+          src="/img/clients/dhs.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -299,10 +299,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Dommerick Elementary School"
-          src="/img/clients/des.jpeg"
+          src="/img/clients/des.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
@@ -312,10 +312,10 @@
       </div>
 
       <div class="relative rounded-md group overflow-hidden text-center">
-        <img
+        <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Apopka Memorial Middle School"
-          src="/img/clients/amms.jpeg"
+          src="/img/clients/amms.webp"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"

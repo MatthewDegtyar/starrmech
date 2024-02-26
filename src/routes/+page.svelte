@@ -42,11 +42,11 @@
     <div
       class="w-full h-[15vh] bg-bg2 px-[5vw] gap-4 items-center overflow-auto justify-between flex flex-row"
     >
-      <img draggable="false" alt="Fedex" src="/img/fedex.png" />
-      <img draggable="false" alt="UCF" src="/img/ucf.png" />
-      <img draggable="false" alt="City of Orlando" src="/img/orlando.png" />
-      <img draggable="false" alt="Bobcat" src="/img/bobcat.png" />
-      <img draggable="false" alt="Universal" src="/img/univ.png" />
+      <img loading='lazy' draggable="false" alt="Fedex" src="/img/fedex.webp" />
+      <img loading='lazy' draggable="false" alt="UCF" src="/img/ucf.webp" />
+      <img loading='lazy' draggable="false" alt="City of Orlando" src="/img/orlando.webp" />
+      <img loading='lazy' draggable="false" alt="Bobcat" src="/img/bobcat.webp" />
+      <img loading='lazy' draggable="false" alt="Universal" src="/img/univ.webp" />
     </div>
     <!--video-->
 
@@ -68,15 +68,14 @@
       <div
         class="flex flex-col xl:flex-row items-center gap-16 justify-between w-[70%] mt-8 mb-16"
       >
-        <a
-          href='/projects#hydro'
+        <div
           class="w-[350px] h-[600px] overflow-hidden border-[2px] border-[#e6e6e6] rounded-md hover:shadow-xl hover:scale-105 transition-all duration-200"
         >
-          <img
+          <img loading='lazy'
             draggable="false"
             class=" rounded-t-md max-w-[350px]"
             alt="Chilled water pipes"
-            src="/img/pipes1.png"
+            src="/img/pipes1.webp"
           />
           <div class="p-4">
             <h4 class="uppercase text-[#0092cd]">Chilled water piping</h4>
@@ -89,17 +88,16 @@
               >View Chilled Water Piping ></a
             >
           </div>
-        </a>
+        </div>
 
-        <a
-        href='/projects#hvac'
+        <div
           class="w-[350px] h-[600px] overflow-hidden border-[2px] border-[#e6e6e6] rounded-md hover:shadow-xl hover:scale-105 transition-all duration-200"
         >
-          <img
+          <img loading='lazy'
             draggable="false"
             class=" rounded-t-md max-w-[350px]"
             alt="Ducts"
-            src="/img/ducts1.png"
+            src="/img/ducts1.webp"
           />
           <div class="p-4">
             <h4 class="uppercase text-[#0092cd]">HVAC/Maintainance</h4>
@@ -112,17 +110,16 @@
               >View HVAC ></a
             >
           </div>
-        </a>
+        </div>
 
-        <a
-        href='/projects#rooftop'
+        <div
           class="w-[350px] h-[600px] overflow-hidden border-[2px] border-[#e6e6e6] rounded-md hover:shadow-xl hover:scale-105 transition-all duration-200"
         >
-          <img
+          <img loading='lazy'
             draggable="false"
             class=" rounded-t-md max-w-[350px]"
             alt="Roof"
-            src="/img/roof1.png"
+            src="/img/roof1.webp"
           />
           <div class="p-4">
             <h4 class="uppercase text-[#0092cd]">Rooftop services</h4>
@@ -135,7 +132,7 @@
               >View Roofing ></a
             >
           </div>
-        </a>
+        </div>
       </div>
     </div>
     <!--featured-->
@@ -150,10 +147,10 @@
 
           
           <div class="relative group rounded-md group overflow-hidden text-center">
-            <img
+            <img loading='lazy'
               class="rounded-md transition-transform duration-300 transform group-hover:scale-105"
               alt="Eastern Florida State Chiller Plant"
-              src="/img/chiller1.png"
+              src="/img/chiller1.webp"
             />
             <a
               href="/projects"
@@ -167,10 +164,10 @@
           </div>
 
           <div class="relative group rounded-md group overflow-hidden text-center">
-            <img
+            <img loading='lazy'
               class="rounded-md transition-transform duration-300 transform group-hover:scale-105"
               alt="Bobcat"
-              src="/img/bobcat2.png"
+              src="/img/bobcat2.webp"
             />
             <a
               href="/projects"
@@ -184,10 +181,10 @@
           </div>
 
           <div class="relative group rounded-md group overflow-hidden text-center">
-            <img
+            <img loading='lazy'
               class="rounded-md transition-transform duration-300 transform group-hover:scale-105"
               alt="Eastern Regional Water Reclaimation Facility"
-              src="/img/roof2.png"
+              src="/img/roof2.webp"
             />
             <a
               href="/projects"
@@ -227,7 +224,7 @@
           <div class="h-[1.25px] xl:hidden w-36 bg-[#e2e2e2]"></div>
   
           <div class="">
-            <img class="max-w-[300px]" alt="logos" src="/img/logos2.png" />
+            <img loading='lazy' class="max-w-[300px]" alt="logos" src="/img/logos2.webp" />
           </div>
         </div>
       </div>

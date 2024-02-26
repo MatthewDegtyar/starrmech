@@ -32,7 +32,7 @@
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div on:click={closeEnlargedView} class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 z-50 flex justify-center items-center">
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src={enlargedImage} class="max-w-full max-h-full" >
+    <img loading='lazy' src={enlargedImage} class="max-w-full max-h-full" >
   </div>
 {/if}
 
@@ -53,12 +53,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -68,12 +68,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -83,12 +83,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -98,12 +98,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -113,12 +113,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -134,12 +134,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -149,12 +149,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -164,12 +164,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -187,12 +187,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -202,12 +202,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -217,12 +217,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -238,12 +238,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -253,12 +253,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">
@@ -268,12 +268,12 @@
 
     <div class="mt-8 px-[5vw]">
       <Gallery>
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
-        <img on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.png" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
+        <img loading='lazy' on:dblclick={handleDoubleClick} draggable="false" alt="img" class={imgStyle} src="/img/weld1.webp" />
 
       </Gallery>
       <h4 class="uppercase text-center mt-4">

@@ -6,11 +6,11 @@
     ></div>
   </div>
 
-  <main class="flex flex-col items-center w-full">
+  <main class="flex flex-col items-center w-full mb-16">
     <div
-      class="px-[5vw] flex flex-col items-center lg:items-start lg:flex-row gap-16 lg:gap-48"
+      class="px-[5vw] flex flex-col items-start lg:flex-row gap-16 lg:gap-48"
     >
-      <div class="lg:w-[20%] grid grid-cols-2 lg:flex lg:flex-col gap-4">
+      <div class="lg:w-[20%] flex flex-col sm:grid sm:grid-cols-2 lg:flex lg:flex-col gap-4">
         <div>
           <h2 class="uppercase text-xl text-[#0092cd]">Address</h2>
           <p class="mt-2">
@@ -37,22 +37,22 @@
           <input
             placeholder="Name*"
             required
-            class="bg-neutral-100 rounded-md text-xl h-12 p-2 outline-1 outline-black w-96"
+            class="bg-neutral-100 rounded-md text-xl h-12 p-2 outline-1 outline-black w-72 sm:w-96"
           />
           <input
             placeholder="Email*"
             type='email'
             required
-            class="bg-neutral-100 rounded-md text-xl h-12 p-2 outline-1 outline-black w-96"
+            class="bg-neutral-100 rounded-md text-xl h-12 p-2 outline-1 outline-black w-72 sm:w-96"
           />
           <input
             placeholder="Phone*"
             required
-            class="bg-neutral-100 rounded-md text-xl h-12 p-2 outline-1 outline-black w-96"
+            class="bg-neutral-100 rounded-md text-xl h-12 p-2 outline-1 outline-black w-72 sm:w-96"
           />
           <textarea
             placeholder="Inquery"
-            class="bg-neutral-100 rounded-md text-xl h-36 p-2 outline-1 outline-black w-96"
+            class="bg-neutral-100 rounded-md text-xl h-36 p-2 outline-1 outline-black w-72 sm:w-96"
           />
           <button
             type="submit"

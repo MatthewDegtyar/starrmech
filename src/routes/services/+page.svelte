@@ -39,7 +39,7 @@
     >
       <div class="absolute z-10 inset-0 bg-[#239bcf]/60"></div>
 
-      <div class="z-20 text-white py-24 lg:py-36 lg:w-[70%] px-[5vw]">
+      <div class="z-20 text-white py-24 lg:py-32 py- lg:w-[70%] px-[5vw]">
         <h3 class="">Hydronics/Chilled Water Systems/Boilers</h3>
         <p class="mt-4 text-xl">
           Starr Mechanical, Inc. can install and service hydronic and chilled

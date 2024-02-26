@@ -59,6 +59,7 @@
       </div>
     </div>
   </div>
+  
   <div
     class="bg-bg4 px-[5vw] bg-fit bg-no-repeat bg-center flex flex-col items-center justify-center relative"
   >

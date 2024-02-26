@@ -38,6 +38,10 @@
 
 }
 
+.selected{
+  color:#0075A3;
+}
+
 .for {
   font-family: var(--font-family-lora);
 }

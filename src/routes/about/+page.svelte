@@ -60,9 +60,9 @@
     </p>
 
     <!--make email copyable-->
-    <img
+    <img loading='lazy'
       alt="Starr Mechanical Logo"
-      src="img/logos/starr-favicon.png"
+      src="img/logos/starr-favicon.webp"
       class="mt-12"
     />
     <div
@@ -70,112 +70,115 @@
     ></div>
   </div>
 
-  <div
-    class="w-full bg-bg2 px-[5vw] gap-4 items-center overflow-auto justify-between flex flex-col"
-  >
-    <div class="text-white py-8 lg:p-16 flex flex-col items-center gap-4">
-      <h3 style="text-align: center">Markets Served</h3>
-      <div class="h-[2px] w-16 bg-white"></div>
-      <p class="intro"></p>
-      <div class="flex flex-col lg:flex-row gap-0 lg:gap-16">
-        <div class="flex flex-col gap-4 text-xl">
-          <div>
-            <li>Industrial</li>
-            <li>Municipal Government Facilities</li>
-            <li>Commercial Office Space</li>
-            <li>Basketball and Football Venues</li>
-            <li>Themed Entertainment</li>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4 text-xl">
-          <div>
-            <li>K12 Education</li>
-            <li>Higher Education</li>
-            <li>Hotel and Hospitality</li>
-            <li>Time-Share</li>
-            <li>High Rise Condominium</li>
-          </div>
-        </div>
-        <div class="flex flex-col gap-4 text-xl">
-          <div>
-            <li>Laboratories</li>
-            <li>Healthcare</li>
-            <li>Theater</li>
-            <li>Retail</li>
-            <li>Restaurant</li>
-          </div>
-        </div>
-      </div>
-      <p class="mt-6 font-bold">
-        <a href="http://starrmechanical.net/clients/" style="color: white"
-          >View Our Featured Clients &gt;</a
-        >
-      </p>
-    </div>
-  </div>
+  <main class="mb-16">
 
-  <div>
-    <div class=" flex flex-col items-center">
-      <div class="lg:w-[70%] px-[5vw] mt-16">
-        <h3 class="mb-4 text-[#0092cd]">Our Work</h3>
-        <p class="intro">
-          Starr Mechanical, Inc. can provide all of your HVAC and mechanical
-          service needs. As Prime or as a Subcontractor, Starr Mechanical serves
-          as an extension of the owner’s staff and resources through the design
-          and construction of a project. This Professional Management enables an
-          owner to maintain direct and total control over all aspects of the
-          project.
-        </p>
-        <p class="intro">
-          Our management approach provides overall control and direction
-          regarding all design and installation of mechanical systems of the
-          project through a single entity. Let our professional relationships
-          and industry resources work for you.
-        </p>
-        <p class="intro">
-          The services you can expect from Starr Mechanical include overall HVAC
-          Systems repair and replacement, new construction installation,
-          maintenance and continuing services to help manage and control both
-          capital improvement and maintenance budgets.
-        </p>
-        <p class="mt-6">
-          <a class="font-bold" href="http://starrmechanical.net/services/"
-            >Learn more about our services &gt;</a
-          ><br />
-          <img src="" alt="Starr Mechanical Amway and Fire Clients" />
+    <div
+      class="w-full bg-bg2 px-[5vw] gap-4 items-center overflow-auto justify-between flex flex-col"
+    >
+      <div class="text-white py-8 lg:p-16 flex flex-col items-center gap-4">
+        <h3 style="text-align: center">Markets Served</h3>
+        <div class="h-[2px] w-16 bg-white"></div>
+        <p class="intro"></p>
+        <div class="flex flex-col lg:flex-row gap-0 lg:gap-16">
+          <div class="flex flex-col gap-4 text-xl">
+            <div>
+              <li>Industrial</li>
+              <li>Municipal Government Facilities</li>
+              <li>Commercial Office Space</li>
+              <li>Basketball and Football Venues</li>
+              <li>Themed Entertainment</li>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 text-xl">
+            <div>
+              <li>K12 Education</li>
+              <li>Higher Education</li>
+              <li>Hotel and Hospitality</li>
+              <li>Time-Share</li>
+              <li>High Rise Condominium</li>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 text-xl">
+            <div>
+              <li>Laboratories</li>
+              <li>Healthcare</li>
+              <li>Theater</li>
+              <li>Retail</li>
+              <li>Restaurant</li>
+            </div>
+          </div>
+        </div>
+        <p class="mt-6 font-bold">
+          <a href="/clients" style="color: white"
+            >View Our Featured Clients &gt;</a
+          >
         </p>
       </div>
     </div>
-  </div>
-
-  <div>
-    <div class=" flex flex-col items-center">
-      <div
-        class="lg:w-[70%] px-[5vw] mt-16 flex flex-col xl:flex-row gap-3 xl:gap-6"
-      >
-        <div>
-          <h3 class="mb-4 text-[#0092cd]">Trust &amp; Credibility</h3>
+  
+    <div>
+      <div class=" flex flex-col items-center">
+        <div class="lg:w-[70%] px-[5vw] mt-16">
+          <h3 class="mb-4 text-[#0092cd]">Our Work</h3>
           <p class="intro">
-            Starr Mechanical, Inc. is an accredited member of the Air
-            Conditioning Contractors Association (<abbr
-              title="Air Conditioning Contractors Association">ACCA</abbr
-            >), Central Florida Hotel and Lodging Association (<abbr
-              title="Central Florida Hotel and Lodging Association">CFHLA</abbr
-            >), and an accredited member in excellent standing with the Better
-            Business Bureau (<abbr title="Better Business Bureau">BBB</abbr>).
-            We are Licensed, Insured, and Bondable in the State of Florida and
-            conveniently located in Orlando. All of our employees are
-            <abbr title="Environmental Protection Agency">EPA</abbr>-certified,
-            <abbr title="North American Technician Excellence">NATE</abbr> Certified,
-            E-verified, Jessica Lunsford Act badged, and drug-free.
+            Starr Mechanical, Inc. can provide all of your HVAC and mechanical
+            service needs. As Prime or as a Subcontractor, Starr Mechanical serves
+            as an extension of the owner’s staff and resources through the design
+            and construction of a project. This Professional Management enables an
+            owner to maintain direct and total control over all aspects of the
+            project.
+          </p>
+          <p class="intro">
+            Our management approach provides overall control and direction
+            regarding all design and installation of mechanical systems of the
+            project through a single entity. Let our professional relationships
+            and industry resources work for you.
+          </p>
+          <p class="intro">
+            The services you can expect from Starr Mechanical include overall HVAC
+            Systems repair and replacement, new construction installation,
+            maintenance and continuing services to help manage and control both
+            capital improvement and maintenance budgets.
+          </p>
+          <p class="mt-6">
+            <a class="font-bold" href="http://starrmechanical.net/services/"
+              >Learn more about our services &gt;</a
+            ><br />
+            <img loading='lazy' src="" alt="Starr Mechanical Amway and Fire Clients" />
           </p>
         </div>
-        <img
-          src="/img/logos2.png"
-          class="w-72 resize-none self-center xl:self-start"
-          alt="Starr Mechancial Inc ACCA and CFHLA accreddited"
-        />
       </div>
     </div>
-  </div>
+  
+    <div>
+      <div class=" flex flex-col items-center">
+        <div
+          class="lg:w-[70%] px-[5vw] mt-16 flex flex-col xl:flex-row gap-3 xl:gap-6"
+        >
+          <div>
+            <h3 class="mb-4 text-[#0092cd]">Trust &amp; Credibility</h3>
+            <p class="intro">
+              Starr Mechanical, Inc. is an accredited member of the Air
+              Conditioning Contractors Association (<abbr
+                title="Air Conditioning Contractors Association">ACCA</abbr
+              >), Central Florida Hotel and Lodging Association (<abbr
+                title="Central Florida Hotel and Lodging Association">CFHLA</abbr
+              >), and an accredited member in excellent standing with the Better
+              Business Bureau (<abbr title="Better Business Bureau">BBB</abbr>).
+              We are Licensed, Insured, and Bondable in the State of Florida and
+              conveniently located in Orlando. All of our employees are
+              <abbr title="Environmental Protection Agency">EPA</abbr>-certified,
+              <abbr title="North American Technician Excellence">NATE</abbr> Certified,
+              E-verified, Jessica Lunsford Act badged, and drug-free.
+            </p>
+          </div>
+          <img loading='lazy'
+            src="/img/logos2.webp"
+            class="w-72 resize-none self-center xl:self-start"
+            alt="Starr Mechancial Inc ACCA and CFHLA accreddited"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
 </div>
