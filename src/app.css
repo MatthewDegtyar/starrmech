@@ -29,6 +29,10 @@
   -webkit-color: var(--c-white);
 }
 
+.customSpan {
+  font-family: var(--font-family-condensed);
+}
+
 .for {
   font-family: var(--font-family-lora);
 }
