@@ -18,6 +18,7 @@
 
   <div class="ml-8 font-medium hidden lg:flex flex-row gap-8 mt-[20px]">
     <a class="hover:text-[#0075A3]" href="/">Home</a>
+    <a class="hover:text-[#0075A3]" href="/about">About US</a>
     <a class="hover:text-[#0075A3]" href="/clients">Clients</a>
     <a class="hover:text-[#0075A3]" href="/careers">Careers</a>
     <a class="hover:text-[#0075A3]" href="/projects">Projects</a>
