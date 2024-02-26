@@ -92,7 +92,7 @@
     class="flex flex-col lg:flex-row lg:w-[70%] justify-between mt-8 px-[5vw]"
   >
     <div class="flex flex-col lg:w-[30%]">
-      <p>About Starr Mechanical</p>
+      <p class='footerP'>About Starr Mechanical</p>
       <p class="mt-4 text-lg">
         Full-service Orlando based Mechanical Contracting Company specializing
         in Commercial and Industrial HVAC Systems & Rooftop Services. Licensed,
@@ -104,7 +104,7 @@
       </p>
     </div>
     <div class="flex flex-col lg:w-[30%] mt-8 lg:mt-0">
-      <p>Company</p>
+      <p class='footerP'>Company</p>
       <div class="grid grid-cols-2 mt-4 gap-6">
         <p><a class="hover:text-[#0092cd] text-lg" href="/about">About Us</a></p>
         <p><a class="hover:text-[#0092cd] text-lg" href="/clients">Clients</a></p>
@@ -117,11 +117,11 @@
         href='/contact'
         class=" place-self-start text-xl mt-8 hover:bg-[#e0e0e0] text-[#444444] bg-white rounded-xl p-4"
       >
-        <span class="text-[16px]">Request A Quote</span>
+        <span class="text-lg">Request A Quote</span>
       </a>
     </div>
     <div class="flex flex-col lg:w-[30%] mt-8 lg:mt-0">
-      <p>Contact</p>
+      <p class='footerP'>Contact</p>
       <div class="flex flex-col gap-4 mt-4">
         <div class="flex flex-row gap-4">
           <div class="w-5 h-5">
@@ -137,7 +137,7 @@
             >
           </div>
           <!-- Inline SVG representing the IoLocationSharp icon -->
-          <span class="text-nowrap text-lg"
+          <span class="text-nowrap text-[16px]"
             >5011 Batten Place
             <br />Orlando, FL 32809</span
           >
@@ -156,7 +156,7 @@
             >
           </div>
           <!-- Inline SVG representing the FaPhone icon -->
-          <span class="text-lg">(407) 299-6552</span>
+          <span class="text-[16px]">(407) 299-6552</span>
         </div>
 
         <div class="flex flex-row gap-4">
@@ -173,7 +173,7 @@
             >
           </div>
 
-          <span class="text-lg">(407) 329-4540</span>
+          <span class="text-[16px]">(407) 329-4540</span>
         </div>
 
         <div class="flex flex-row gap-4">
@@ -191,7 +191,7 @@
 
           </div>
 
-          <span class="text-lg">info(at)StarrMechanical.net</span>
+          <span class="text-[16px]">info(at)StarrMechanical.net</span>
         </div>
       </div>
     </div>
