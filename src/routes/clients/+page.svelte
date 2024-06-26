@@ -236,13 +236,13 @@
       <div class="relative rounded-md group overflow-hidden text-center">
         <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
-          alt="Bufallo Wild Wings Citrus Bowl"
-          src="/img/clients/.webp"
+          alt="Buffalo Wild Wings Citrus Bowl"
+          src="/img/clients/bww.jpeg"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
         >
-          <h4 class="text-xl font-bold uppercase p-3">Bufallo Wild Wings Citrus Bowl</h4>
+          <h4 class="text-xl font-bold uppercase p-3">Buffalo Wild Wings Citrus Bowl</h4>
         </div>
       </div>
 
@@ -276,7 +276,7 @@
         <img loading='lazy'
           class="rounded-md h-[280px] object-cover w-[350px] transition-transform duration-300 transform hover:scale-105"
           alt="Lake Mary High School"
-          src="/img/clients/lmhs.webp"
+          src="/img/clients/lmhs.png"
         />
         <div
           class="absolute rounded-md w-[350px] inset-0 flex flex-col justify-center items-center text-white opacity-0 bg-black bg-opacity-60 transition-opacity duration-300 group-hover:opacity-100"
