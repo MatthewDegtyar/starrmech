@@ -7,7 +7,7 @@
   let message = '';
   let isButtonDisabled = false;
 
-  const handleSubmit = async (/** @type {{ preventDefault: () => void; }} */ event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault(); // Prevent default form submission
 
     if (isButtonDisabled) {
